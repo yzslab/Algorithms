@@ -58,7 +58,7 @@ namespace Algorithms {
         result doFindMaximumCrossingSubarray(int low, int mid, int high) {
             struct result result;
             int lowPos = -1, highPos = -1, i, sum, maximum;
-            for (i = mid, maximum = sum = 0; i >= low; --i) {
+            for (i = mid, maximum = INT_MIN, sum = 0; i >= low; --i) {
                 sum += array[i];
                 if (sum > maximum) {
                     lowPos = i;
@@ -67,7 +67,7 @@ namespace Algorithms {
             }
             result.sum = 0;
             result.sum += maximum;
-            for (i = mid + 1, maximum = sum = 0; i <= high; ++i) {
+            for (i = mid + 1, maximum = INT_MIN, sum = 0; i <= high; ++i) {
                 sum += array[i];
                 if (sum > maximum) {
                     highPos = i;
