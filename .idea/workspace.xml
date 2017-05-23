@@ -2,9 +2,10 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="HashSetTest" targetName="BinarySearchTree" />
-      <config projectName="HashSetTest" targetName="HashSetTest" />
-      <config projectName="HashSetTest" targetName="RedBlackTree" />
+      <config projectName="MaximumSubarray" targetName="BinarySearchTree" />
+      <config projectName="MaximumSubarray" targetName="RedBlackTree" />
+      <config projectName="MaximumSubarray" targetName="HashSetTest" />
+      <config projectName="MaximumSubarray" targetName="MaximunSubarray" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -14,7 +15,31 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecab265e-e27c-4f1c-abab-52462abfabcc" name="Default" comment="" />
+    <list default="true" id="ecab265e-e27c-4f1c-abab-52462abfabcc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Algorithms/MaximumSubarray.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Algorithms/MaximumSubarray.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MaximumSubarrayTest.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Algorithms.iml" afterPath="$PROJECT_DIR$/.idea/Algorithms.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BinarySearchTreeTest.cpp" afterPath="$PROJECT_DIR$/BinarySearchTreeTest.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStructure/BinarySearchTree.cpp" afterPath="$PROJECT_DIR$/DataStructure/BinarySearchTree.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStructure/BinarySearchTree.h" afterPath="$PROJECT_DIR$/DataStructure/BinarySearchTree.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStructure/Exceptions/ElementNotFound.cpp" afterPath="$PROJECT_DIR$/DataStructure/Exceptions/ElementNotFound.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStructure/Exceptions/ElementNotFound.h" afterPath="$PROJECT_DIR$/DataStructure/Exceptions/ElementNotFound.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStructure/HashSet.cpp" afterPath="$PROJECT_DIR$/DataStructure/HashSet.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStructure/HashSet.h" afterPath="$PROJECT_DIR$/DataStructure/HashSet.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStructure/LinkedList.cpp" afterPath="$PROJECT_DIR$/DataStructure/LinkedList.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStructure/LinkedList.h" afterPath="$PROJECT_DIR$/DataStructure/LinkedList.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStructure/RedBlackTree.cpp" afterPath="$PROJECT_DIR$/DataStructure/RedBlackTree.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataStructure/RedBlackTree.h" afterPath="$PROJECT_DIR$/DataStructure/RedBlackTree.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HashSetTest.cpp" afterPath="$PROJECT_DIR$/HashSetTest.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RedBlackTreeTest.cpp" afterPath="$PROJECT_DIR$/RedBlackTreeTest.cpp" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-mingw debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-cygwin debug/" />
@@ -34,9 +59,44 @@
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="68" lean-forward="false" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+            <state relative-caret-position="209">
+              <caret line="11" column="86" lean-forward="false" selection-start-line="11" selection-start-column="86" selection-end-line="11" selection-end-column="86" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaximumSubarrayTest.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MaximumSubarrayTest.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+              <folding>
+                <element signature="e#45#64#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaximumSubarray.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithms/MaximumSubarray.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaximumSubarray.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithms/MaximumSubarray.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <folding>
+                <element signature="e#122#140#0" expanded="true" />
+                <element signature="e#197#216#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,25 +113,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedBlackTree.h" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RedBlackTree.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataStructure/RedBlackTree.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="274" column="61" lean-forward="false" selection-start-line="274" selection-start-column="61" selection-end-line="274" selection-end-column="61" />
+            <state relative-caret-position="514">
+              <caret line="268" column="0" lean-forward="false" selection-start-line="268" selection-start-column="0" selection-end-line="268" selection-end-column="0" />
               <folding>
                 <element signature="e#205#224#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HashSet.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataStructure/HashSet.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <element signature="e#45#64#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,50 +144,6 @@
               <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
               <folding>
                 <element signature="e#152#171#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedList.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataStructure/LinkedList.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HashSetTest.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HashSetTest.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BinarySearchTree.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataStructure/BinarySearchTree.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-              <folding>
-                <element signature="e#200#219#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BinarySearchTreeTest.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BinarySearchTreeTest.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -172,10 +176,12 @@
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/RedBlackTreeTest.cpp" />
         <option value="$PROJECT_DIR$/DataStructure/RedBlackTree.h" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/DataStructure/HashSet.cpp" />
         <option value="$PROJECT_DIR$/DataStructure/HashSet.h" />
         <option value="$PROJECT_DIR$/DataStructure/LinkedList.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Algorithms/MaximumSubarray.h" />
+        <option value="$PROJECT_DIR$/MaximumSubarrayTest.cpp" />
       </list>
     </option>
   </component>
@@ -189,8 +195,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1380" />
-    <option name="height" value="744" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -212,7 +218,7 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HashSetTest" />
+              <option name="myItemId" value="MaximumSubarray" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -222,7 +228,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HashSetTest" />
+              <option name="myItemId" value="MaximumSubarray" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -230,7 +236,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DataStructure" />
+              <option name="myItemId" value="Algorithms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -239,7 +245,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunDashboard">
@@ -254,7 +260,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HashSetTest">
+  <component name="RunManager" selected="Application.MaximunSubarray">
     <configuration default="true" type="CLion_Remote" factoryName="GDB Remote Debug" remoteCommand="" symbolFile="" sysroot="">
       <method />
     </configuration>
@@ -437,22 +443,27 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <configuration default="false" name="BinarySearchTree" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="HashSetTest" TARGET_NAME="BinarySearchTree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="HashSetTest" RUN_TARGET_NAME="BinarySearchTree">
+    <configuration default="false" name="BinarySearchTree" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MaximumSubarray" TARGET_NAME="BinarySearchTree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MaximumSubarray" RUN_TARGET_NAME="BinarySearchTree">
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="HashSetTest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="HashSetTest" TARGET_NAME="HashSetTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="HashSetTest" RUN_TARGET_NAME="HashSetTest">
+    <configuration default="false" name="HashSetTest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MaximumSubarray" TARGET_NAME="HashSetTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MaximumSubarray" RUN_TARGET_NAME="HashSetTest">
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="RedBlackTree" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="HashSetTest" TARGET_NAME="RedBlackTree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="HashSetTest" RUN_TARGET_NAME="RedBlackTree">
+    <configuration default="false" name="MaximunSubarray" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MaximumSubarray" TARGET_NAME="MaximunSubarray" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MaximumSubarray" RUN_TARGET_NAME="MaximunSubarray">
       <envs />
       <method />
     </configuration>
-    <list size="3">
+    <configuration default="false" name="RedBlackTree" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MaximumSubarray" TARGET_NAME="RedBlackTree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MaximumSubarray" RUN_TARGET_NAME="RedBlackTree">
+      <envs />
+      <method />
+    </configuration>
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.BinarySearchTree" />
       <item index="1" class="java.lang.String" itemvalue="Application.HashSetTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.RedBlackTree" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MaximunSubarray" />
+      <item index="3" class="java.lang.String" itemvalue="Application.RedBlackTree" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -474,11 +485,12 @@
       <workItem from="1495193213689" duration="2923000" />
       <workItem from="1495196557679" duration="21000" />
       <workItem from="1495365215402" duration="665000" />
+      <workItem from="1495513097419" duration="4769000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64765000" />
+    <option name="totallyTimeSpent" value="69534000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -490,26 +502,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1380" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21060605" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15031983" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39935064" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39869988" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -532,54 +545,17 @@
           <line>9</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/MaximumSubarrayTest.cpp</url>
+          <line>12</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="36" />
+      <option name="time" value="43" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DataStructure/BinarySearchTree.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#200#219#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructure/BinarySearchTree.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BinarySearchTreeTest.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructure/RedBlackTree.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructure/Exceptions/ElementNotFound.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DataStructure/Exceptions/ElementNotFound.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -906,14 +882,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="68" lean-forward="false" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DataStructure/HashSet.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -964,10 +932,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DataStructure/RedBlackTree.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="274" column="61" lean-forward="false" selection-start-line="274" selection-start-column="61" selection-end-line="274" selection-end-column="61" />
+        <state relative-caret-position="514">
+          <caret line="268" column="0" lean-forward="false" selection-start-line="268" selection-start-column="0" selection-end-line="268" selection-end-column="0" />
           <folding>
             <element signature="e#205#224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="86" lean-forward="false" selection-start-line="11" selection-start-column="86" selection-end-line="11" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/include/limits.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2020">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/MinGW/lib/gcc/mingw32/5.3.0/include/c++/climits">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="40" column="12" lean-forward="false" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/MaximumSubarray.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="e#122#140#0" expanded="true" />
+            <element signature="e#197#216#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithms/MaximumSubarray.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MaximumSubarrayTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="e#45#64#0" expanded="true" />
           </folding>
         </state>
       </provider>
