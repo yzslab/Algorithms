@@ -18,7 +18,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecab265e-e27c-4f1c-abab-52462abfabcc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Algorithms.iml" afterPath="$PROJECT_DIR$/.idea/Algorithms.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
@@ -47,6 +46,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HashSetTest.cpp" afterPath="$PROJECT_DIR$/HashSetTest.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KMPTest.cpp" afterPath="$PROJECT_DIR$/KMPTest.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MaximumSubarrayTest.cpp" afterPath="$PROJECT_DIR$/MaximumSubarrayTest.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RedBlackTreeTest.cpp" afterPath="$PROJECT_DIR$/RedBlackTreeTest.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -148,8 +148,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="19">
-                <caret line="1" column="43" lean-forward="false" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+              <first_editor relative-caret-position="38">
+                <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -523,12 +523,12 @@
       <workItem from="1495365215402" duration="665000" />
       <workItem from="1495513097419" duration="9390000" />
       <workItem from="1495681956290" duration="1819000" />
-      <workItem from="1496038782394" duration="8031000" />
+      <workItem from="1496038782394" duration="8111000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84005000" />
+    <option name="totallyTimeSpent" value="84085000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1001,8 +1001,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="19">
-            <caret line="1" column="43" lean-forward="false" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+          <first_editor relative-caret-position="38">
+            <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
             <folding />
           </first_editor>
           <second_editor />
