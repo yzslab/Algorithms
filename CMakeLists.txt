@@ -4,6 +4,7 @@ project(RedBlackTree)
 project(HashSetTest)
 project(MaximumSubarray)
 project(FibonacciSequenceDynamicProgramming)
+project(KMP)
 
 set(CMAKE_CXX_STANDARD 11)
 
@@ -12,3 +13,4 @@ add_executable(RedBlackTree RedBlackTreeTest.cpp DataStructure/RedBlackTree.cpp)
 add_executable(HashSetTest HashSetTest.cpp DataStructure/HashSet.cpp)
 add_executable(MaximunSubarray MaximumSubarrayTest.cpp Algorithms/MaximumSubarray.cpp)
 add_executable(FibonacciSequenceDynamicProgrammingTest FibonacciSequenceDynamicProgrammingTest.cpp Algorithms/FibonacciSequenceDynamicProgramming.cpp)
+add_executable(KMP KMPTest.cpp Algorithms/KMP.cpp)
